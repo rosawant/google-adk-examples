@@ -10,7 +10,7 @@ def get_current_time_tool(city: str) -> dict:
     }
 
 root_agent = Agent(
-    name="02_tool_agent",
+    name="tool_agent",
     description="A test agent for demonstration purposes.",
     model="gemini-2.0-flash",
     instruction="""
